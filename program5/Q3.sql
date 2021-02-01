@@ -3,5 +3,4 @@ the maximum salary, the minimum salary, and the average salary in this departmen
 
 SELECT SUM (E.SALARY), MAX (E.SALARY), MIN (E.SALARY), AVG (E.SALARY)
 FROM EMPLOYEE E, DEPARTMENT D
-WHERE E.DNO=D.DNO AND
-	D.DNAME='ACCOUNTS';
+WHERE E.DNO=D.DNO AND D.DNAME='ACCOUNTS';
