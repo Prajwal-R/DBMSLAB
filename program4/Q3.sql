@@ -1,4 +1,4 @@
-/* 3. Create a view of Test1 marks of student USN ‘1BI15CS101’ in all subjects. */
+/* 3. Create a view of Test1 marks of student USN ‘1BI15CS101’ in all COURSEs. */
 
 CREATE VIEW STU_TEST1_MARKS_VIEW
 AS
